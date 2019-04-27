@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    background: #bebebe;
+} */
+  .head{
+    width: 100%;
+    height: 120px;
+  }
+  .head img{ 
+    float: left;
+    margin-top:50px;
+    width: 300px;
+    height: 60px;
+    margin-left: 120px;
+   }
+  .put input[type="text"]{
+    float: left;
+    margin-left: 200px;
+    margin-top:60px; 
+    width: 600px;
+    height: 50px;
+    border-radius: 2px; 
+    border:1px solid blue;
+
+  }
+  .head button{width: 100px;
+    height: 52px;
+    margin-top:60px;
+    border:1px solid blue; }
+  .head a{
+    list-style: none;
+    text-decoration: none;
+    margin-left:10px;
+    float: right; 
+  }
+  .head span{
+    float: right;
+    display: block;
+    margin: -36px 150px 0 0;
+  }
+  .bt{
+    float: left;
+    margin: 0px 0px 0px 0px;
+  }
+
+
+
+.wrap1{
+  z-index: -1;
+  /*position:fixed;*/
+  width: 1900px;
+  height: 600px;
+  margin-top:70px;
+  overflow: hidden;
+}
+.wrap1 .box1{
+  width: 5760px;
+  height: 400px;
+  animation: myDongh 5s infinite;
+  /* 作用滚动时间 */
+}
+.wrap1 .box1 img{
+  width: 1920px;
+  height: 554px;
+  float: left;
+}
+/* 图片滚动规则 */
+@keyframes myDongh{
+  0%,5%{
+    margin-left:0;
+  }
+  15%,30%{
+    margin-left:-100%;
+  }
+  35%,55%{
+    margin-left:-200%;
+  }
+  60%,80%{
+    margin-left:-100%;
+  }
+  90%,100%{
+    margin-left:0;
+  }
+}
+.wrap{
+    width: 270px;
+    height: 600px;
+    margin-top: -648px;
+    margin-left: 100px;
+    /*background: red;*/
+    /*-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.2);*/
+    /*box-shadow: 0 0 3px 2px rgba(0,0,0,.2);*/
+}
+
+.title{
+    height: 45px;
+    width: 270px;
+    background:#6d78ff;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    display: line-block;
+}
+.wrap ul{
+    width: 270px;
+    height: 558px;
+    list-style: none;
+    position: relative;
+}
+.wrap ul li{
+  transition: all 0.8s;
+    width: 270px;
+    height: 92px;
+    border-bottom: 1px solid gray;
+    background: rgba(0,0,0,0.5);
+}
+.wrap ul:hover li{
+  transition: all 0.8s;
+  background-color: #111;
+}
+.wrap ul li h4{
+   font-weight: bold;
+    color: white;
+    line-height: 40px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.wrap ul li .aaa{
+   font-size: 10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.wrap ul li span{
+    height: 20px;
+    width: 40px;
+    float: right;
+    color: white;
+    margin-top: -12px;
+    margin-right: -10px;
+    background: url(../images/ct.png) no-repeat;
+    background-position: -9px -461px;
+    transition: all 0.5s;
+}
+.wrap ul li:hover{
+    background: rgba(0,0,0,0.7);
+    transition: all 0.5s;
+}
+.wrap ul li .aaa:hover{
+    color: rgb(254, 221, 103);
+    transition: all 0.5s;
+}
+.wrap ul li:hover span{
+    background-position: -2px -461px;
+    transition: all 0.5s;
+}
+.box{
+    height: 558px;
+    width: 750px;
+    background: rgba(45, 45, 45, 1);
+    position: absolute;
+    top:0px;
+    left:270px;
+    display: none;
+}
+.wrap ul li:hover .box{
+    display: block;
+}
+.box div{
+    width: 750px;
+    height: auto;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.box div:hover{
+  transition: all 0.5s;
+  background-color: rgb(255, 250, 247);
+}
+.box div h3{
+    display: inline-block;
+    line-height: 100px;
+    color: rgb(33, 212, 251);
+    font-weight: normal;
+    margin-left: 50px;
+}
+.box div a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: gray;
+}
+.box div a:hover{
+    color: rgb(32, 255, 135);
+    transition: all 0.5s;
+}
+.gdximg{
+  width: 1600px;
+  height: auto;
+  margin:20px 290px;
+}
+.gdximg img{
+  width:400px;
+  height: 240px;
+  margin-left:30px;
+  cursor: pointer;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  width: 1500px;
+  /*border:1px solid rgb(0,0,0,0.1);*/
+  padding:1px;
+  height: 400px;
+  margin:30px auto 0;
+  /*background:rgb(0,0,0,0.1);*/
+  /*position: relative;*/
+}
+.content{
+  width: 1500px;
+  /*border:1px solid rgb(0,0,0,0.1);*/
+  padding:1px;
+  height: 400px;
+  margin:0px auto;
+  /*background:rgb(0,0,0,0.1);*/
+  /*position: relative;*/
+}
+.bt_2{
+  width: 1144px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left:170px;
+  }
+.bt_2 h2{
+  line-height: 30px;
+      font-size:20px;
+      border-left: 3px solid blue;
+      padding-left: 16px;float: left;
+  /*font-weight: normal;
+  border-left: 10px solid #4785EA;
+  padding-left: 10px;
+  line-height: 30px;
+  margin-left: 70px;*/
+
+}
+.bt_2 a{
+  float: right;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
+.wrap_1{
+  /*width: 402px;
+  height: 250px;*/
+  width: 370px;
+  height: 224px;
+  float: left;
+  margin:0 40px;
+  margin-left:180px;
+}
+.wrap_2{
+  width: 402px;
+  height: 250px;
+  float: left;
+  margin-right: 0px;
+}
+.wrap_3{
+  /*width: 400px;
+  height: 250px;*/
+  width: 330px;
+  height: 220px;
+  /*background:red;*/
+  position: relative;
+  float: left;
+  /*border:1px solid black;*/
+  /*background:url(../images/open6.jpg);*/
+}
+.box_2{
+  /*width: 400px;
+  height: 250px;*/
+  width: 330px;
+  height: 220px;
+  background:rgba(0,0,0,0.3);
+  text-align: center;
+  border:black;
+  border:1px solid black;
+
+}
+.box_2 h2{
+  color: white;
+  margin-top: 50px;
+  font-weight:normal;
+}
+.box_2 p{
+  line-height: 30px;
+  color:gray;
+}
+.bbb{
+  width: 120px;
+  height: 50px;
+  border:none;
+  background:#4785EA;
+  border-radius: 3px;
+  color:white;
+  font-size: 16px;
+  position: absolute;
+  top:143px;
+  left:50%;
+  margin-left: -59px;
+  display: none;
+}
+.wrap_3:hover .box_2{
+  transition: all 0.3s;
+  background:rgba(0,0,0,0.7);
+}
+.aaa{
+  width: 120px;
+  height: 50px;
+  /*border:1px solid black;*/
+  margin:30px auto;
+}
+.aaa img{
+    float: left;
+    border-radius: 50%;
+}
+.aaa span{
+  color:white;
+  line-height: 50px;
+}
+.cs{
+  margin-top: -40px;
+  color: white;
+  float: left;
+}
+.gd{
+  float: right;
+  position: relative;
+  top:-40px;
+  color: white;
+}
+.wrap_3:hover .aaa{
+  display: none;
+}
+.wrap_3:hover .bbb{
+  display: block;
+}
+.ddd{
+  width: 120px;
+  height: 50px;
+  border:none;
+  background:rgb(255,152,0);
+  border-radius: 3px;
+  color:white;
+  font-size: 16px;
+    position: absolute;
+  top:143px;
+  left:50%;
+  margin-left: -59px;
+  display: none;
+}
+.wrap_3:hover .ddd{
+  display: block;
+}
+.wrap_4{width:1160px;
+      height:540px;
+      /*background-color: yellow;*/
+      margin:100px auto;}
+    .head_2{height:50px; 
+      width:1160px;
+      background:#ffffff;}
+    .head_2 span{
+      line-height: 50px;
+      font-size:20px;
+      border-left: 3px solid blue;
+      padding-left: 16px;
+    }
+    .head_2 a{
+      text-decoration: none;
+      float: right;
+      line-height: 50px;
+      color: blue;
+      padding-right: 16px;
+    }
+    .tu{width:270px;
+      height:482px;
+      float: left;
+    }
+    .box_3{height: 482px;
+      width: 890px;
+      /*background: red;*/
+      float: left;
+    }
+    .box_3 ul{
+      list-style: none;
+      height: 230px;
+      width: 1180px;
+    }
+    .box_3 ul li{
+      height:230px; 
+      width:270px;
+      background:#ffffff;
+      float: left;
+      margin-left: 20px;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+    .box_3 ul:nth-child(2) li{
+      margin-top:20px;
+    }
+    /*.box li:nth-child(2){background:red}*/
+    .box_3 ul li img{
+      height:150px;
+      width:270px;}
+    .box_3 ul li div{
+      height: 80px;
+      width: 270px;
+      /*background: gray;*/
+    }
+    .box_3 ul li h3{
+      font-weight: normal;
+      font-size: 16px;
+        line-height: 40px;
+        margin-left:15px;
+    }
+    .box_3 ul li span{
+      color: green;
+      font-size: 13px;
+    }
+    .box_3 ul li a{
+      text-decoration: none;
+      color:white;
+      float: right;
+      font-size:13px;
+      padding-right: 10px;
+    }
+    .box_3 ul:nth-child(1) li:hover{
+      margin-top:-5px;
+      box-shadow: 10px 10px 10px 0 rgb(225,225,225);
+}
+    .box_3 ul:nth-child(2) li:hover{
+      margin-top:15px;
+      box-shadow: 10px 10px 10px 0 rgb(225,225,225);
+    }
+    .box_3 ul li:hover{
+      transition: all 0.5s;
+    }
