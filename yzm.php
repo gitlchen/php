@@ -1,6 +1,6 @@
 ﻿
 <?php
-header("content-type:text/html;charset=utf-8");
+header("content-type:text/html;charset=utf8");
 if (empty($_POST['register'])) {
 	$rand="获取验证码";
 	$zhanghao="";
